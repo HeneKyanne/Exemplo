@@ -12,6 +12,15 @@ public class ContatoBEAN {
     private String endereco;
     private String telefone;
     private int idade;
+    private float numero;
+
+    public float getNumero() {
+        return numero;
+    }
+
+    public void setNumero(float numero) {
+        this.numero = numero;
+    }
 
     public int getCod() {
         return cod;
